@@ -11,7 +11,7 @@ JARVIS est un projet d’assistant personnel local et francophone. Son objectif 
 
 ## État du projet
 
-Le premier livrable établit la structure du dépôt, les objectifs et la feuille de route. Le développement de l’assistant commencera par le harnais IA et la reprise d’une conversation avec un autre modèle.
+Le premier livrable établit la structure du dépôt, les objectifs et la feuille de route. Le deuxième livrable consiste à préparer le PC Windows et à vérifier qu’un modèle répond via l’API locale d’Ollama. Le troisième livrable portera sur le harnais IA et la reprise d’une conversation avec un autre modèle.
 
 ## Structure du dépôt
 
