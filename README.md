@@ -11,13 +11,14 @@ JARVIS est un projet d’assistant personnel local et francophone. Son objectif 
 
 ## État du projet
 
-Le premier livrable établit la structure du dépôt, les objectifs et la feuille de route. Le deuxième livrable consiste à préparer le PC Windows et à vérifier qu’un modèle répond via l’API locale d’Ollama. Le troisième livrable portera sur le harnais IA et la reprise d’une conversation avec un autre modèle.
+Le premier livrable établit la structure du dépôt, les objectifs et la feuille de route. Le deuxième livrable précise les usages prioritaires et la façon d’y répondre. L’installation de l’environnement local vient en troisième, puis le harnais IA en quatrième.
 
 ## Structure du dépôt
 
 | Emplacement | Contenu |
 | --- | --- |
 | [README.md](README.md) | Présentation, objectifs et état du projet |
+| [docs/cadrage.md](docs/cadrage.md) | Usages envisagés, démarche et décisions à prendre |
 | [docs/architecture.md](docs/architecture.md) | Architecture prévue et responsabilités des composants |
 | [docs/feuille-de-route.md](docs/feuille-de-route.md) | Livrables, ordre de réalisation et critères de validation |
 
