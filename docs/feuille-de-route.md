@@ -10,6 +10,7 @@
 | 6. Diagnostics en lecture seule | Prévu | Depuis JARVIS, consulter l’état d’un service local autorisé et retrouver le résultat dans l’historique. Docker est le premier cas envisagé. |
 | 7. Actions avec confirmation | Prévu | Prévisualiser une modification et sa cible. Vérifier qu’un refus laisse la cible intacte et qu’une confirmation exécute uniquement l’action approuvée. |
 | 8. Progression par exemples validés | Prévu | Ajouter un cas Excel ou Power BI corrigé avec son résultat attendu, puis le rejouer après une évolution de JARVIS pour vérifier si la correction tient. |
+| 9. Documents Word, Excel, PowerPoint et PDF | Prévu | Pour chacun des quatre formats, réussir les trois essais du [cadrage](cadrage.md) en lisant une information vérifiable, en modifiant une copie et en créant un fichier utilisable. |
 
 ## Essais utilisateurs proposés
 
