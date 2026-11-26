@@ -1,9 +1,10 @@
 # JARVIS-AI
 
-JARVIS est un projet d’assistant personnel local et francophone. Il doit permettre de poser des questions en français, de créer des applications simples et d’explorer des intégrations d’IA locale dans FinanceOS. L’utilisateur garde la maîtrise de ses données et des actions effectuées en son nom.
+JARVIS est un projet d’assistant personnel local et francophone. Il doit permettre d’échanger par écrit en français, d’obtenir de l’aide dans Excel et Power BI, de créer des applications simples et d’explorer des intégrations d’IA locale dans FinanceOS. L’utilisateur garde la maîtrise de ses données et des actions effectuées en son nom.
 
 ## Objectifs
 
+- **Personnaliser l’assistance.** Retenir localement les préférences choisies par l’utilisateur et enrichir les compétences de JARVIS au moyen de corrections et d’exemples validés.
 - **Assurer la continuité.** Retrouver une conversation, une décision ou un diagnostic et reprendre le travail là où il s’est arrêté.
 - **Pouvoir changer d’IA.** Confier la mémoire, les outils et les permissions à JARVIS pour pouvoir remplacer le modèle au fil du temps. Ollama est le premier moteur envisagé.
 - **Garder les données en local.** Prévoir un fonctionnement sur le PC et le réseau privé. Les conversations, configurations personnelles et secrets restent sur les appareils de l’utilisateur.
