@@ -4,6 +4,7 @@ JARVIS est un projet d’assistant personnel local et francophone. Il doit perme
 
 ## Objectifs
 
+- **Travailler sur des documents.** Lire, modifier et créer des fichiers Word, Excel, PowerPoint et PDF à partir de demandes écrites.
 - **Personnaliser l’assistance.** Retenir localement les préférences choisies par l’utilisateur et enrichir les compétences de JARVIS au moyen de corrections et d’exemples validés.
 - **Assurer la continuité.** Retrouver une conversation, une décision ou un diagnostic et reprendre le travail là où il s’est arrêté.
 - **Pouvoir changer d’IA.** Confier la mémoire, les outils et les permissions à JARVIS pour pouvoir remplacer le modèle au fil du temps. Ollama est le premier moteur envisagé.
