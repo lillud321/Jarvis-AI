@@ -12,6 +12,10 @@ L’interface transmet le message au harnais de JARVIS. Le harnais retrouve la c
 | Adaptateur Ollama | Communiquer avec le moteur local et signaler les modèles disponibles ou une erreur de connexion |
 | Gestion des outils et permissions | Vérifier chaque opération et recueillir l’accord de l’utilisateur lorsqu’une modification est demandée |
 
+## Profil et exemples validés
+
+Le stockage local de JARVIS distinguera l’historique, les préférences personnelles ou propres à un projet et les exemples de travail validés. Le harnais sélectionnera les éléments pertinents pour la demande courante. L’interface permettra de consulter, corriger et supprimer une préférence. Une préférence supprimée devra cesser d’être appliquée aux nouveaux échanges.
+
 ## Changement de modèle
 
 Passer de Qwen à Gemma dans Ollama conserve l’identifiant de la conversation. Le harnais recharge le contexte disponible et applique les mêmes permissions au prochain échange. Un futur moteur pourra être pris en charge en ajoutant un adaptateur. Si le moteur local est indisponible, l’interface le signale et conserve l’historique.
