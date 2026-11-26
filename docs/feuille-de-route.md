@@ -10,6 +10,10 @@
 | 6. Diagnostics en lecture seule | Prévu | Depuis JARVIS, consulter l’état d’un service local autorisé et retrouver le résultat dans l’historique. Docker est le premier cas envisagé. |
 | 7. Actions avec confirmation | Prévu | Prévisualiser une modification et sa cible. Vérifier qu’un refus laisse la cible intacte et qu’une confirmation exécute uniquement l’action approuvée. |
 
+## Essais utilisateurs proposés
+
+Dès que le harnais permet un échange local, essayer une question en français avec une relance, puis la création et la révision d’une petite application. Pour FinanceOS, choisir une fonctionnalité et réaliser un essai avec des données fictives. Les exemples et les résultats attendus figurent dans le [cadrage](cadrage.md). Le choix du mode vocal reste ouvert pour l’installation.
+
 ## Intégrations envisagées
 
 Open WebUI, le NAS Synology, Tailscale et n8n pourront être intégrés selon les besoins. Pour chaque intégration, préciser les informations consultables et les actions autorisées avant son développement.
