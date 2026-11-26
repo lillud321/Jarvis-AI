@@ -10,6 +10,19 @@ La première interface sera une conversation écrite en français. Les usages ci
 | Travailler dans Excel | « À partir de ces lignes, comment calculer le total par projet et par période ? » | Proposer une formule ou une transformation Power Query M, expliquer où la saisir et vérifier le total sur quelques lignes fournies. |
 | Travailler dans Power BI | « Pourquoi ma mesure DAX donne-t-elle le même montant pour chaque projet ? » | Demander les relations et la mesure utiles, expliquer le contexte de filtre et proposer une correction vérifiable sur deux projets et sur le total. |
 
+## Lire, modifier et créer des fichiers
+
+Depuis la conversation écrite, choisir un document local ou décrire le fichier à créer. Pour une modification, JARVIS présentera les changements et proposera d’enregistrer une copie après confirmation.
+
+| Format | Lire | Modifier | Créer |
+| --- | --- | --- | --- |
+| Word (.docx) | Retrouver une décision dans un compte rendu et indiquer la section | Reformuler un paragraphe en conservant son style | Produire un compte rendu à partir de notes |
+| Excel (.xlsx) | Expliquer une formule en indiquant la feuille et la cellule | Ajouter une colonne d’écart avec une formule par ligne | Construire un classeur budget/réel avec des totaux |
+| PowerPoint (.pptx) | Résumer une présentation en citant les diapositives | Actualiser un chiffre sur une diapositive en conservant sa mise en page | Produire une présentation à partir d’un plan |
+| PDF (.pdf) | Retrouver une échéance et citer la page | Annoter un passage ou réordonner des pages | Générer un rapport paginé |
+
+Pour valider chaque format, comparer la réponse de lecture à la source, rouvrir la copie modifiée et le nouveau fichier dans leur application, puis vérifier le contenu et la mise en page. Pour Excel, vérifier aussi le recalcul des formules après un changement de valeur. Les premiers essais PDF porteront sur du texte sélectionnable. La lecture des numérisations par reconnaissance de caractères et la retouche du texte existant seront évaluées séparément.
+
 ## Personnalisation et progression proposées
 
 L’utilisateur peut demander « Retiens que je travaille dans Excel en français ». JARVIS conserve cette préférence localement et la réutilise dans une prochaine conversation consacrée à Excel. Le profil doit être consultable, modifiable et effaçable. Une convention propre à FinanceOS peut être rattachée à ce projet. Si JARVIS déduit une préférence à partir d’une correction, il propose de la retenir et attend la confirmation.
