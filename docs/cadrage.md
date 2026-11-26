@@ -1,16 +1,24 @@
 # Cadrage de JARVIS
 
-Les trois usages exprimés sont la conversation en français, la création de petites applications et l’aide à l’intégration de l’IA dans FinanceOS. Les essais ci-dessous sont des propositions de travail.
+La première interface sera une conversation écrite en français. Les usages ci-dessous sont des points de départ. D’autres pourront être ajoutés à mesure que les besoins se précisent.
 
 | Usage | Exemple de demande | Résultat observable |
 | --- | --- | --- |
-| Poser des questions et poursuivre la discussion | « À quoi sert une clé primaire en SQL ? » puis « Montre-moi avec une table de clients. » | La réponse de suivi reprend le sujet et donne un exemple correct en français. Si la voix est retenue, l’essai commence au microphone. |
+| Poser des questions et poursuivre la discussion | « À quoi sert une clé primaire en SQL ? » puis « Montre-moi avec une table de clients. » | La réponse de suivi reprend le sujet et donne un exemple correct en français. |
 | Créer une petite application puis la modifier | « Crée une page pour noter les scores de deux équipes. » Puis demander un bouton pour corriger le dernier point. | Ouvrir la page sur le PC, ajouter des points aux deux équipes et annuler le dernier point. L’utilisateur peut examiner les fichiers proposés avant leur enregistrement. |
 | Aider à intégrer l’IA dans FinanceOS | « Comment expliquer les écarts entre le budget et les dépenses du mois ? » | JARVIS aide à définir l’entrée, à proposer le code d’intégration et à évaluer un prototype sur des données fictives. Chaque montant de l’explication doit pouvoir être rapproché du rapport source. |
+| Travailler dans Excel | « À partir de ces lignes, comment calculer le total par projet et par période ? » | Proposer une formule ou une transformation Power Query M, expliquer où la saisir et vérifier le total sur quelques lignes fournies. |
+| Travailler dans Power BI | « Pourquoi ma mesure DAX donne-t-elle le même montant pour chaque projet ? » | Demander les relations et la mesure utiles, expliquer le contexte de filtre et proposer une correction vérifiable sur deux projets et sur le total. |
+
+## Personnalisation et progression proposées
+
+L’utilisateur peut demander « Retiens que je travaille dans Excel en français ». JARVIS conserve cette préférence localement et la réutilise dans une prochaine conversation consacrée à Excel. Le profil doit être consultable, modifiable et effaçable. Une convention propre à FinanceOS peut être rattachée à ce projet. Si JARVIS déduit une préférence à partir d’une correction, il propose de la retenir et attend la confirmation.
+
+Pour faire progresser une compétence, conserver des exemples validés avec leur résultat attendu. Par exemple, après la correction d’une mesure DAX, rejouer le cas sur deux projets et vérifier aussi le total. Ces exemples permettront de comparer les résultats après une évolution du harnais ou un changement de modèle. La mémoire et les exemples restent utilisables avec un autre modèle, sans exiger son réentraînement.
 
 ## Chemin proposé
 
-Commencer avec une conversation locale. L’essai de suivi vérifie que le modèle reçoit le contexte. Le choix entre clavier, microphone et réponse lue à voix haute détermine les logiciels à prévoir lors de l’installation.
+Commencer avec une conversation locale. L’essai de suivi vérifie que le modèle reçoit le contexte. L’utilisateur écrit au clavier et lit la réponse à l’écran. La voix pourra faire l’objet d’un livrable ultérieur.
 
 Utiliser ensuite cette conversation pour décrire une petite application à une seule fonction. Une page HTML autonome permet de vérifier rapidement si JARVIS comprend une demande, produit une application utilisable et sait la modifier après un premier essai.
 
@@ -18,7 +26,6 @@ Pour FinanceOS, commencer par choisir une fonctionnalité qui gagnerait à utili
 
 ## Questions encore ouvertes
 
-- La première conversation doit-elle permettre de taper, de dicter une question ou de tenir un échange vocal complet ?
 - Quelle petite application et quelle fonctionnalité de FinanceOS serviront de premiers essais ?
 - Quelles informations conserver d’une session à l’autre, et quelles écritures présenter pour confirmation ?
 
