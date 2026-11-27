@@ -61,6 +61,10 @@ Pour FinanceOS, commencer par choisir une fonctionnalité qui gagnerait à utili
 | Comparer deux versions d’un projet | Relever les changements, indiquer leur effet pour l’utilisateur et proposer des vérifications ciblées. |
 | Animer des jeux et des scénarios interactifs | Faire évoluer une enquête selon les choix du groupe tout en conservant une histoire cohérente. |
 
+## Accès à distance et rappels
+
+Commencer une conversation sur le PC, puis la reprendre par écrit depuis un téléphone sur le réseau cellulaire. Demander « Rappelle-moi jeudi à 17 h de prendre le projecteur ». Vérifier la date et l’heure comprises, fermer la conversation et vérifier la réception sur le téléphone. Sur un second essai, reporter le rappel depuis le PC et vérifier que seule la nouvelle échéance déclenche une notification.
+
 ## Préparer une formation pour les cadets
 
 **Demande type.** Fournir le guide pédagogique, le nombre de jeunes, leur niveau et les objectifs de l’instructeur. Préciser la durée, le matériel et les contraintes de groupe. Si une donnée manque et change la faisabilité de l’activité, la demander ou signaler l’hypothèse proposée.
