@@ -43,3 +43,11 @@ Une GitHub App dédiée donnera accès aux dépôts sélectionnés. Le harnais c
 ## Agents spécialisés
 
 Sur demande, JARVIS proposera une fiche d’agent précisant sa mission, ses sources, ses outils et le résultat attendu. L’utilisateur pourra valider la fiche, la modifier ou la retirer. Le harnais pourra utiliser le même modèle local pour plusieurs rôles et transmettre à chacun le seul contexte utile. À chaque exécution, les accès seront limités aux autorisations communes à la tâche, au profil et à l’utilisateur. Les confirmations requises pour écrire ou publier resteront gérées par le harnais.
+
+## Sélection des modèles et consultation externe
+
+Un agent définit une mission et des outils. Le harnais peut lui attribuer différents modèles selon la tâche. Une liste locale associera les modèles disponibles aux capacités évaluées sur le PC, par exemple analyse financière et boursière, intelligence d’affaires et programmation. L’utilisateur pourra voir le choix et le modifier. Plusieurs domaines pourront partager le même modèle si les essais le justifient.
+
+Si une tâche dépasse les capacités locales évaluées, JARVIS expliquera la difficulté et pourra proposer un second avis via un adaptateur Anthropic (Claude) ou OpenAI. Cette option sera désactivée par défaut. JARVIS préparera localement la question minimale, avec des données fictives ou agrégées si possible. Il retirera les identifiants, secrets et détails indirectement reconnaissables. Si le contexte reste identifiable, il signalera le risque et proposera de reformuler ou de rester en local.
+
+Avant chaque transmission, afficher le fournisseur, le modèle, le motif et l’intégralité du contenu à transmettre. L’accord portera sur ce contenu exact et ce destinataire. Toute modification demandera une nouvelle confirmation. Le refus, l’absence de réponse ou l’indisponibilité du service laisseront la tâche en local. L’historique complet, les fichiers sources et le profil personnel restent hors de la requête. La consultation externe ne confère aucun accès aux outils de JARVIS.
