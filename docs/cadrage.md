@@ -10,6 +10,8 @@ JARVIS sera un assistant local, francophone et polyvalent. La première interact
 | Raisonner et planifier | Tenir compte des objectifs, du public et des contraintes, comparer des options et adapter le résultat à un changement | Contexte du projet et vérifications de cohérence |
 | Produire et réviser | Rédiger, proposer du code pour une petite application ou une intégration, construire des supports cohérents et les réviser sur demande | Outils de création et de modification de fichiers Word, Excel, PowerPoint, PDF et HTML, avec aperçu et confirmation |
 | Personnaliser et progresser | Utiliser les préférences pertinentes et appliquer une correction à une nouvelle demande | Mémoire locale consultable et modifiable, exemples validés et essais rejouables après changement de modèle |
+| Échanger à distance | Suivre une conversation commencée sur un autre appareil et conserver son contexte | Accès privé depuis un appareil autorisé, historique partagé et mêmes permissions. L’écrit reste le premier mode d’échange. |
+| Gérer des rappels | Comprendre quoi rappeler et quand, reconnaître une échéance ambiguë et permettre sa modification ou son annulation | Rappels persistants, planification selon le fuseau horaire et notification sur l’appareil choisi, même lorsque la conversation est fermée. |
 
 Le harnais permettra de remplacer le modèle indépendamment des fichiers, de la mémoire et des permissions. Le choix du modèle et des outils se fera selon les capacités nécessaires et les résultats obtenus sur le PC Windows.
 
