@@ -1,16 +1,18 @@
 # Déploiement et reprise prévus
 
-## Une application, deux installations possibles
+## Ordre de déploiement retenu
 
 Une interface web privée dessert le PC et le téléphone. Le service central (harnais) possède la mémoire, les autorisations, les rappels et la file de travaux. Un service d’exécution sur Windows reçoit les tâches autorisées, utilise Ollama et les outils locaux et renvoie les résultats. Chaque tâche a un identifiant et un état durable.
 
-Pour le premier essai, les deux services peuvent tourner sur le PC. La cible proposée place le service central sur le Synology sous réserve de vérifier son modèle, sa mémoire disponible et la compatibilité de Container Manager. Les mêmes réglages de connexion permettent de déplacer un composant. Le lancement Windows et le déploiement conteneurisé du service central sont des livrables à construire.
+**Phase 1 — PC Windows.** Développer et valider l’ensemble sur le PC seul. L’interface web, le harnais, la mémoire, les rappels, la file de travaux, Ollama et les outils d’exécution fonctionneront sur cette machine. Le NAS ne constitue aucun prérequis pour cette phase.
 
-Si le PC dort, l’interface hébergée sur le NAS peut consulter les données existantes, accepter une demande et déclencher les rappels déjà programmés si leur canal est disponible. Les tâches nécessitant le PC restent en attente. À chaque étape validée, enregistrer le résultat, les modifications locales utiles et la prochaine étape. Après une interruption, vérifier les effets déjà produits avant toute reprise.
+**Phase 2 — Migration du service central.** Une fois la version PC validée, vérifier la compatibilité du Synology, sauvegarder l’état du service central, suspendre ses écritures sur le PC, puis restaurer cet état sur le NAS. Reconnecter le service d’exécution Windows et vérifier une conversation, un rappel et une tâche avant de réactiver les traitements. Une seule instance du planificateur doit être active. Les modèles et les espaces d’exécution restent sur le PC.
+
+Après la migration, si le PC dort, l’interface hébergée sur le NAS peut consulter les données existantes, accepter une demande et déclencher les rappels déjà programmés si leur canal est disponible. Les tâches nécessitant le PC restent en attente. À chaque étape validée, enregistrer le résultat, les modifications locales utiles et la prochaine étape. Après une interruption, vérifier les effets déjà produits avant toute reprise.
 
 ## Dimensionnement et disponibilité
 
-Le poste prévu est un PC Windows doté d’une RTX 3080 de 10 Go de VRAM et de 32 Go de RAM. Le stockage annoncé est d’environ 1 To. Relever l’espace réellement libre, le processeur, les modèles installés et leur version lors de l’inventaire. Consigner aussi le modèle du Synology, sa mémoire disponible et sa capacité à héberger le service central.
+Le poste prévu est un PC Windows doté d’une RTX 3080 de 10 Go de VRAM et de 32 Go de RAM. Le stockage annoncé est d’environ 1 To. Relever l’espace réellement libre, le processeur, les modèles installés et leur version lors de l’inventaire. Lors de la préparation de la phase 2, consigner le modèle du Synology, sa mémoire disponible et sa capacité à héberger le service central.
 
 La justesse prime. Pour une question courante, viser une réponse courte en 30 à 60 secondes, chargement initial mesuré séparément. Pour une refonte complexe, une durée allant jusqu’à deux jours est acceptable si le travail progresse et reste récupérable. Comparer sur une même tâche un modèle compact chargé principalement sur le GPU et un modèle quantifié plus grand réparti entre GPU et RAM. Mesurer l’exactitude, le temps total, la mémoire maximale et la réactivité du PC. Le disque conservera les modèles, les projets et les points de reprise. Les tailles et délais utilisables seront déterminés sur le poste réel.
 
