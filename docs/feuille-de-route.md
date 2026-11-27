@@ -15,7 +15,7 @@
 | 11. Recherche, raisonnement et production coordonnée | Prévu | Retrouver les sources pertinentes, adapter une proposition aux contraintes et répercuter une correction dans plusieurs supports. Évaluer le transfert sur un second contexte. |
 | 12. Accès privé à distance | Prévu | Depuis un appareil autorisé hors du domicile, reprendre par écrit une conversation locale et retrouver son contexte avec les mêmes permissions. |
 | 13. Rappels et notifications | Prévu | Programmer un rappel, recevoir la notification à l’heure convenue avec la conversation fermée et vérifier qu’un rappel annulé ne se déclenche plus. |
-| 14. Création locale en environnement contrôlé | Prévu | Produire et prévisualiser un résultat dans un espace dédié. Vérifier que les fichiers hors périmètre sont inaccessibles et que seule une sortie approuvée rejoint sa destination. |
+| 14. Création locale en environnement contrôlé | Prévu | Produire et prévisualiser un résultat dans un espace dédié. Vérifier que les fichiers hors périmètre sont inaccessibles et que seule une sortie approuvée rejoint sa destination. Pour Docker, construire une image, déployer le conteneur dans la cible approuvée, vérifier son fonctionnement et pouvoir retirer ce déploiement. |
 
 ## Validation
 
