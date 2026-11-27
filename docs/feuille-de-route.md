@@ -13,6 +13,8 @@
 | 9. Production et révision de fichiers | Prévu | Créer, lire et modifier des fichiers dans les formats retenus. Vérifier leur contenu après réouverture. |
 | 10. Compréhension de contenus multimodaux | Prévu | Interpréter des images, tableaux, graphiques et enregistrements avec des outils locaux adaptés et vérifier les éléments cités. |
 | 11. Recherche, raisonnement et production coordonnée | Prévu | Retrouver les sources pertinentes, adapter une proposition aux contraintes et répercuter une correction dans plusieurs supports. Évaluer le transfert sur un second contexte. |
+| 12. Accès privé à distance | Prévu | Depuis un appareil autorisé hors du domicile, reprendre par écrit une conversation locale et retrouver son contexte avec les mêmes permissions. |
+| 13. Rappels et notifications | Prévu | Programmer un rappel, recevoir la notification à l’heure convenue avec la conversation fermée et vérifier qu’un rappel annulé ne se déclenche plus. |
 
 ## Validation
 
