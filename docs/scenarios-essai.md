@@ -83,3 +83,7 @@ Autoriser JARVIS à travailler sur une copie d’un classeur fictif et lui deman
 ## Déployer une création dans Docker
 
 Demander une petite application, approuver son déploiement dans l’environnement de test, puis ouvrir l’application à l’adresse prévue. Vérifier le résultat après redémarrage du conteneur, puis arrêter et retirer ce déploiement en préservant les autres services et les données persistantes.
+
+## Contribuer à un projet existant
+
+Dans FinanceOS, partir du module de rapports existant et proposer une évolution en utilisant des transactions fictives. Dans le jeu de cartes, retrouver la logique du tour et proposer une modification de règle. Dans les deux cas, vérifier que le changement suit les conventions du dépôt et que l’utilisateur peut examiner les différences avant publication.
