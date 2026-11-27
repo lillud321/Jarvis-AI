@@ -87,3 +87,7 @@ Demander une petite application, approuver son déploiement dans l’environneme
 ## Contribuer à un projet existant
 
 Dans FinanceOS, partir du module de rapports existant et proposer une évolution en utilisant des transactions fictives. Dans le jeu de cartes, retrouver la logique du tour et proposer une modification de règle. Dans les deux cas, vérifier que le changement suit les conventions du dépôt et que l’utilisateur peut examiner les différences avant publication.
+
+## Créer un agent spécialisé
+
+Demander un agent de révision Power BI qui explique une mesure DAX et propose des vérifications à partir d’un exemple fourni. Examiner son profil, l’utiliser sur deux mesures différentes, puis vérifier qu’il conserve ses consignes et que son rôle de lecture seule empêche toute modification du classeur.
