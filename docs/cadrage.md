@@ -13,6 +13,7 @@ JARVIS sera un assistant local, francophone et polyvalent. La première interact
 | Échanger à distance | Suivre une conversation commencée sur un autre appareil et conserver son contexte | Accès privé depuis un appareil autorisé, historique partagé et mêmes permissions. L’écrit reste le premier mode d’échange. |
 | Gérer des rappels | Comprendre quoi rappeler et quand, reconnaître une échéance ambiguë et permettre sa modification ou son annulation | Rappels persistants, planification selon le fuseau horaire et notification sur l’appareil choisi, même lorsque la conversation est fermée. |
 | Créer sur le PC dans un environnement contrôlé | Transformer une demande en résultat utilisable, le vérifier et le réviser | Construction et déploiement d’applications en conteneur Docker dans une cible autorisée, espace de travail isolé, entrées choisies, outils autorisés et validation des changements avant enregistrement dans les dossiers personnels. |
+| Développer un projet existant | Comprendre le code et ses conventions, proposer une évolution ciblée et expliquer ses effets | Accès aux dépôts GitHub choisis, copie de travail locale, comparaison des changements et publication sur accord. |
 
 Le harnais permettra de remplacer le modèle indépendamment des fichiers, de la mémoire et des permissions. Le choix du modèle et des outils se fera selon les capacités nécessaires et les résultats obtenus sur le PC Windows.
 
