@@ -48,6 +48,30 @@ Utiliser ensuite cette conversation pour décrire une petite application à une 
 
 Pour FinanceOS, commencer par choisir une fonctionnalité qui gagnerait à utiliser l’IA. Pour l’exemple des écarts budgétaires, FinanceOS calculerait les totaux et les écarts. Le modèle local recevrait les agrégats nécessaires et proposerait une explication. Comparer cette explication aux chiffres avant de décider si elle mérite une place dans l’application. JARVIS pourrait aider à écrire et réviser ce code quel que soit le modèle choisi pour FinanceOS.
 
+## Autres usages retenus
+
+| Capacité | Essai de validation proposé |
+| --- | --- |
+| Rechercher dans la bibliothèque personnelle | Retrouver une formule déjà validée dans les fichiers autorisés, citer le fichier et ouvrir le passage pertinent. |
+| Apprendre avec un tuteur | Faire pratiquer les jointures SQL une question à la fois, attendre la réponse et adapter l’explication à l’erreur commise. |
+| Simuler une conversation | Jouer un gestionnaire qui examine une proposition pour FinanceOS, puis donner une rétroaction fondée sur les réponses de l’utilisateur. |
+| Comparer des options | Ramener trois soumissions à une base comparable et relever les coûts ou conditions à préciser. |
+| Planifier une activité sous contraintes | Construire les rotations selon l’effectif, le local, le temps et les animateurs. Adapter le plan si un animateur est absent. |
+| Transformer un enregistrement en suivi | Transcrire localement un extrait et associer les décisions, responsables et échéances exprimés aux passages horodatés. |
+| Comparer deux versions d’un projet | Relever les changements, indiquer leur effet pour l’utilisateur et proposer des vérifications ciblées. |
+| Animer des jeux et des scénarios interactifs | Faire évoluer une enquête selon les choix du groupe tout en conservant une histoire cohérente. |
+
+## Préparer une formation pour les cadets
+
+**Demande type.** Fournir le guide pédagogique, le nombre de jeunes, leur niveau et les objectifs de l’instructeur. Préciser la durée, le matériel et les contraintes de groupe. Si une donnée manque et change la faisabilité de l’activité, la demander ou signaler l’hypothèse proposée.
+
+1. Relever l’objectif du guide et ses points d’enseignement. Relier chaque adaptation aux objectifs de l’instructeur et signaler tout élément reporté.
+2. Générer un **plan pour l’instructeur** avec le minutage, les groupes, le matériel, les consignes, les questions et une façon de vérifier les apprentissages.
+3. Générer une **présentation pour les jeunes** avec les exemples, les consignes à projeter et les activités. Le format de référence est une présentation HTML utilisable hors ligne.
+4. Vérifier la durée totale, la place de chaque participant et la correspondance entre les activités du plan et les diapositives. Si l’effectif change, adapter les deux supports ensemble.
+
+**Cas de référence.** Pour l’OCOM M303.02 sur le mentorat, le guide prévoit une leçon de 30 minutes. Le plan personnalisé fourni associe cinq segments à 14 diapositives et prévoit quatre équipes de trois à cinq cadets. La présentation propose un Jeopardy du mentorat et une discussion de groupe. Ce scénario sert à vérifier que le jeu soutient l’objectif pédagogique et que le plan indique à l’instructeur quand le lancer et comment exploiter les réponses.
+
 ## Questions encore ouvertes
 
 - Quelle petite application et quelle fonctionnalité de FinanceOS serviront de premiers essais ?
