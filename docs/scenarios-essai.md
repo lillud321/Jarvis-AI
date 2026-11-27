@@ -91,3 +91,9 @@ Dans FinanceOS, partir du module de rapports existant et proposer une évolution
 ## Créer un agent spécialisé
 
 Demander un agent de révision Power BI qui explique une mesure DAX et propose des vérifications à partir d’un exemple fourni. Examiner son profil, l’utiliser sur deux mesures différentes, puis vérifier qu’il conserve ses consignes et que son rôle de lecture seule empêche toute modification du classeur.
+
+## Choix de modèle et confidentialité
+
+Proposer trois demandes portant sur la comparaison de résultats financiers publics, une mesure DAX et la correction de code. Observer le choix de modèle et comparer les réponses à des résultats attendus avant d’attribuer un domaine à un modèle.
+
+Sur un jeu de données fictives contenant des identifiants témoins, simuler une tâche difficile et préparer une consultation externe. Vérifier que l’aperçu exclut ces identifiants et que refuser l’envoi ne produit aucun appel. Sur un service simulé, accepter une version révisée et comparer le contenu effectivement reçu à la version approuvée.
