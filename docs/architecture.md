@@ -16,6 +16,12 @@ L’interface transmet le message au harnais de JARVIS. Le harnais retrouve la c
 
 Le stockage local de JARVIS distinguera l’historique, les préférences personnelles ou propres à un projet et les exemples de travail validés. Le harnais sélectionnera les éléments pertinents pour la demande courante. L’interface permettra de consulter, corriger et supprimer une préférence. Une préférence supprimée devra cesser d’être appliquée aux nouveaux échanges.
 
+## Modèle principal et spécialistes
+
+Le modèle principal dialogue, interprète la demande et propose la prochaine étape ou le spécialiste à solliciter. Le harnais applique les permissions, limite la sélection aux modèles autorisés et conserve l’état des travaux. Un profil de configuration associe chaque rôle à un moteur et à un identifiant de modèle. L’interface permettra de changer une affectation ou de basculer un profil complet en une action, avec retour au profil précédent. Tout recours externe reste soumis au consentement prévu.
+
+Le changement prend effet à la prochaine étape. En cours de travail, les étapes validées et les décisions utiles sont enregistrées dans un format propre à JARVIS. Avant d’adopter un nouveau modèle, vérifier les capacités requises par son rôle, notamment les appels d’outils pour le modèle principal. Un nouveau moteur peut nécessiter un adaptateur.
+
 ## Changement de modèle
 
 Passer de Qwen à Gemma dans Ollama conserve l’identifiant de la conversation. Le harnais recharge le contexte disponible et applique les mêmes permissions au prochain échange. Un futur moteur pourra être pris en charge en ajoutant un adaptateur. Si le moteur local est indisponible, l’interface le signale et conserve l’historique.
