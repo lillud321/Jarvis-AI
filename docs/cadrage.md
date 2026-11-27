@@ -15,6 +15,7 @@ JARVIS sera un assistant local, francophone et polyvalent. La première interact
 | Créer sur le PC dans un environnement contrôlé | Transformer une demande en résultat utilisable, le vérifier et le réviser | Construction et déploiement d’applications en conteneur Docker dans une cible autorisée, espace de travail isolé, entrées choisies, outils autorisés et validation des changements avant enregistrement dans les dossiers personnels. |
 | Développer un projet existant | Comprendre le code et ses conventions, proposer une évolution ciblée et expliquer ses effets | Accès aux dépôts GitHub choisis, copie de travail locale, comparaison des changements et publication sur accord. |
 | Créer et utiliser des agents spécialisés | Définir un rôle à partir d’une demande et lui confier une tâche délimitée | Profil réutilisable ou temporaire avec mission, contexte, outils permis et résultat attendu. |
+| Choisir un modèle selon la tâche | Reconnaître le domaine et les limites d’un résultat local | Sélection locale configurable et recours facultatif à Claude ou à un modèle OpenAI après réduction des données et accord explicite sur l’envoi. |
 
 Le harnais permettra de remplacer le modèle indépendamment des fichiers, de la mémoire et des permissions. Le choix du modèle et des outils se fera selon les capacités nécessaires et les résultats obtenus sur le PC Windows.
 
