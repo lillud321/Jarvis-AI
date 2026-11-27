@@ -22,9 +22,10 @@ L’application prévue offrira une interface web privée, un service central d�
 
 | Emplacement | Contenu |
 | --- | --- |
-| [README.md](README.md) | Présentation, objectifs et état du projet |
 | [docs/cadrage.md](docs/cadrage.md) | Usages envisagés, démarche et décisions à prendre |
 | [docs/architecture.md](docs/architecture.md) | Architecture prévue et responsabilités des composants |
+| [docs/deploiement-reprise.md](docs/deploiement-reprise.md) | Répartition PC et NAS, objectifs de performance, inventaire, sauvegarde et remplacement d’un appareil |
+| [docs/scenarios-essai.md](docs/scenarios-essai.md) | Exemples concrets pour vérifier les capacités sur des tâches réelles |
 | [docs/feuille-de-route.md](docs/feuille-de-route.md) | Livrables, ordre de réalisation et critères de validation |
 
 Les dossiers de code et de tests seront ajoutés avec la première fonctionnalité exécutable.
