@@ -18,6 +18,8 @@
 | 14. Création locale en environnement contrôlé | Prévu | Produire et prévisualiser un résultat dans un espace dédié. Vérifier que les fichiers hors périmètre sont inaccessibles et que seule une sortie approuvée rejoint sa destination. Pour Docker, construire une image, déployer le conteneur dans la cible approuvée, vérifier son fonctionnement et pouvoir retirer ce déploiement. |
 | 15. Développement assisté sur GitHub | Prévu | Lire un dépôt autorisé, préparer une modification locale et présenter les différences. Sur accord, publier sur une branche de travail et ouvrir une demande de fusion pour révision. |
 | 16. Création et utilisation d’agents spécialisés | Prévu | Créer un profil à partir d’une demande, examiner ses accès et le réutiliser sur une seconde tâche. Vérifier que ses outils respectent les permissions accordées. |
+| 17. Sélection du modèle selon la tâche | Prévu | Comparer les modèles locaux sur les tâches visées, vérifier la sélection du harnais et permettre de la remplacer. |
+| 18. Second avis externe avec consentement | Prévu | Préparer localement une demande dépersonnalisée, vérifier le contenu et le destinataire, puis tester les chemins d’accord et de refus. |
 
 ## Validation
 
