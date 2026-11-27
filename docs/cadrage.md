@@ -19,6 +19,10 @@ JARVIS sera un assistant local, francophone et polyvalent. La première interact
 
 Le harnais permettra de remplacer le modèle indépendamment des fichiers, de la mémoire et des permissions. Le choix du modèle et des outils se fera selon les capacités nécessaires et les résultats obtenus sur le PC Windows.
 
+## Continuité sur trois à six ans
+
+L’objectif est de conserver le même assistant personnel tout en faisant évoluer son modèle principal, ses spécialistes et, au besoin, son moteur d’exécution. Les décisions de projet, les préférences et les travaux en cours doivent rester exploitables après chaque remplacement.
+
 ## Comment évaluer ces capacités
 
 Le cours de mentorat permet d’en observer plusieurs ensemble. À partir d’un guide, d’un public et d’objectifs, JARVIS doit pouvoir proposer un déroulement et une présentation cohérents. Modifier l’effectif ou utiliser un autre sujet permettra de vérifier si la démarche se généralise. La durée, le jeu et le nombre de diapositives proviennent de l’exemple fourni.
