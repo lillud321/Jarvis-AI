@@ -16,6 +16,8 @@ JARVIS est un projet d’assistant personnel local et francophone. Il doit perme
 
 Le premier livrable établit la structure du dépôt, les objectifs et la feuille de route. Le deuxième livrable précise les usages prioritaires et la façon d’y répondre. L’installation de l’environnement local vient en troisième, puis le harnais IA en quatrième.
 
+L’application prévue offrira une interface web privée, un service central déplaçable et un service d’exécution sur le PC. Voir le [déploiement et la reprise](docs/deploiement-reprise.md).
+
 ## Structure du dépôt
 
 | Emplacement | Contenu |
