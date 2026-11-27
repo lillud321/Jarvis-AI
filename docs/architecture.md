@@ -27,3 +27,9 @@ L’interface distante devra rejoindre JARVIS par un accès privé authentifié.
 ## Exemple de permission
 
 « Quel est l’état du conteneur ? » peut déclencher une consultation si cet outil a été autorisé. Pour « Redémarre ce conteneur », JARVIS présente le conteneur ciblé et l’opération proposée. Seule la confirmation de l’utilisateur autorise cette opération précise.
+
+## Espace de création local
+
+Le harnais présentera le résultat demandé, les fichiers d’entrée et les opérations nécessaires avant d’obtenir l’accord de l’utilisateur. Un composant local fera respecter ces autorisations indépendamment du modèle, y compris pour les demandes reçues à distance. Les outils travailleront sur des copies dans un espace dédié, avec des accès limités aux fichiers, aux programmes et au réseau. Les éventuels programmes produits devront être essayés dans ce même périmètre.
+
+L’utilisateur pourra inspecter le résultat, demander une révision, l’écarter ou confirmer son export vers une destination précise. Le choix du mécanisme d’isolation sur Windows reste à valider.
