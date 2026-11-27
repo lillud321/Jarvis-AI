@@ -22,6 +22,7 @@ Toute la première version sera développée, exécutée et validée sur le PC W
 
 | Emplacement | Contenu |
 | --- | --- |
+| [docs/modeles-candidats.md](docs/modeles-candidats.md) | Modèles locaux candidats, matériel cible et critères de comparaison |
 | [docs/cadrage.md](docs/cadrage.md) | Usages envisagés, démarche et décisions à prendre |
 | [docs/architecture.md](docs/architecture.md) | Architecture prévue et responsabilités des composants |
 | [docs/deploiement-reprise.md](docs/deploiement-reprise.md) | Répartition PC et NAS, objectifs de performance, inventaire, sauvegarde et remplacement d’un appareil |
