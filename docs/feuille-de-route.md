@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | 1. Fondation du dépôt GitHub | Réalisé | Le README explique le projet et ses objectifs. Il donne accès à l’architecture prévue et à cette feuille de route. |
 | 2. [Cadrage du projet](cadrage.md) | En réflexion | Identifier les capacités recherchées, les outils nécessaires et les situations permettant de les évaluer. |
-| 3. Installation et validation sur le PC Windows | À réaliser | Inventorier les outils et modèles présents, installer seulement les prérequis manquants et consigner les étapes dans un guide Windows. Depuis le PC, envoyer une question à l’API locale d’Ollama et obtenir la réponse d’un modèle installé. |
+| 3. Installation et validation sur le PC Windows | À réaliser | Inventorier les outils et modèles présents, installer seulement les prérequis manquants et consigner les étapes dans un guide Windows. Depuis le PC, obtenir une réponse de l’API locale d’Ollama et consigner une première mesure de délai et de mémoire selon le [plan de déploiement](deploiement-reprise.md). |
 | 4. Harnais IA local | À réaliser | Démarrer une conversation avec un modèle Ollama, passer à un second modèle et reprendre le même échange avec son contexte. Viser moins de 30 secondes de manipulation pour remplacer le modèle principal déjà installé et compatible, puis vérifier la reprise du contexte et des permissions. Mesurer séparément le délai jusqu’à la première réponse. |
 | 5. Mémoire, profil et suivi | Prévu | Après un redémarrage, retrouver par recherche une décision, le problème associé et la prochaine action. Dans une nouvelle conversation, vérifier qu’une préférence choisie s’applique après changement de modèle, puis qu’elle cesse de s’appliquer après suppression. |
 | 6. Diagnostics en lecture seule | Prévu | Depuis JARVIS, consulter l’état d’un service local autorisé et retrouver le résultat dans l’historique. Docker est le premier cas envisagé. |
@@ -18,9 +18,9 @@
 | 14. Création locale en environnement contrôlé | Prévu | Produire et prévisualiser un résultat dans un espace dédié. Vérifier que les fichiers hors périmètre sont inaccessibles et que seule une sortie approuvée rejoint sa destination. Pour Docker, construire une image, déployer le conteneur dans la cible approuvée, vérifier son fonctionnement et pouvoir retirer ce déploiement. |
 | 15. Développement assisté sur GitHub | Prévu | Lire un dépôt autorisé, préparer une modification locale et présenter les différences. Sur accord, publier sur une branche de travail et ouvrir une demande de fusion pour révision. |
 | 16. Création et utilisation d’agents spécialisés | Prévu | Créer un profil à partir d’une demande, examiner ses accès et le réutiliser sur une seconde tâche. Vérifier que ses outils respectent les permissions accordées. |
-| 17. Sélection du modèle selon la tâche | Prévu | Comparer les modèles locaux sur les tâches visées, valider la délégation par le modèle principal, changer les affectations des spécialistes depuis les paramètres et pouvoir rétablir le profil précédent. |
+| 17. Sélection du modèle selon la tâche | Prévu | Comparer justesse, délai et consommation de mémoire sur une même tâche, valider la délégation par le modèle principal, changer les affectations des spécialistes depuis les paramètres et pouvoir rétablir le profil précédent. |
 | 18. Second avis externe avec consentement | Prévu | Préparer localement une demande dépersonnalisée, vérifier le contenu et le destinataire, puis tester les chemins d’accord et de refus. |
-| 19. Installation reproductible et reprise | Prévu | Décrire le déploiement PC seul ou NAS + PC, vérifier l’inventaire et restaurer un projet témoin sur une cible vierge selon le [plan de reprise](deploiement-reprise.md). Mesurer le délai et les données récupérées. |
+| 19. Installation reproductible et reprise | Prévu | Décrire le déploiement PC seul ou NAS + PC, vérifier l’inventaire et restaurer un projet témoin sur une cible vierge selon le [plan de reprise](deploiement-reprise.md). Vérifier la reprise après remplacement du PC ou du NAS et la récupération de changements non publiés. Mesurer le délai et les données récupérées. |
 
 ## Validation
 
