@@ -1,5 +1,7 @@
 # Architecture prévue
 
+La [répartition entre machines et la reprise après panne](deploiement-reprise.md) précisent le rôle du harnais, du poste de calcul et des sauvegardes.
+
 ## Première conversation locale
 
 L’interface transmet le message au harnais de JARVIS. Le harnais retrouve la conversation dans le stockage local, prépare le contexte puis appelle le modèle sélectionné au moyen d’un adaptateur. JARVIS enregistre la réponse et le nom du modèle utilisé dans la conversation.
