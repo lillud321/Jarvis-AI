@@ -23,6 +23,17 @@ Depuis la conversation écrite, choisir un document local ou décrire le fichier
 
 Pour valider chaque format, comparer la réponse de lecture à la source, rouvrir la copie modifiée et le nouveau fichier dans leur application, puis vérifier le contenu et la mise en page. Pour Excel, vérifier aussi le recalcul des formules après un changement de valeur. Les premiers essais PDF porteront sur du texte sélectionnable. La lecture des numérisations par reconnaissance de caractères et la retouche du texte existant seront évaluées séparément.
 
+## Analyser une image, un graphique ou un tableau
+
+Depuis la conversation écrite, joindre une image ou sélectionner un document local, puis poser une question sur son contenu. Le harnais devra pouvoir solliciter un modèle visuel ou un outil local de reconnaissance de caractères selon le format.
+
+| Source | Question à essayer | Vérification |
+| --- | --- | --- |
+| Photo d’un équipement | « Quels ports vois-tu et quelles étiquettes peux-tu lire ? » | Situer chaque élément sur la photo et signaler les inscriptions illisibles. |
+| Capture d’un graphique Power BI | « À quel mois les dépenses dépassent-elles le budget ? » | Identifier les séries, les unités et les mois visibles. Distinguer une valeur affichée d’une estimation visuelle. |
+| Tableau Excel ou CSV | « Quels projets ont le plus grand dépassement ? » | Calculer les écarts à partir des cellules, classer les projets et citer les colonnes ou lignes utilisées. |
+| Tableau photographié ou PDF numérisé | « Reconstitue ce tableau et vérifie le total. » | Préserver les en-têtes et l’association ligne-colonne, signaler les cellules incertaines et recalculer le total lorsque les montants sont lisibles. |
+
 ## Personnalisation et progression proposées
 
 L’utilisateur peut demander « Retiens que je travaille dans Excel en français ». JARVIS conserve cette préférence localement et la réutilise dans une prochaine conversation consacrée à Excel. Le profil doit être consultable, modifiable et effaçable. Une convention propre à FinanceOS peut être rattachée à ce projet. Si JARVIS déduit une préférence à partir d’une correction, il propose de la retenir et attend la confirmation.
