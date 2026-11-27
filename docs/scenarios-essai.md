@@ -79,3 +79,7 @@ Commencer une conversation sur le PC, puis la reprendre par écrit depuis un té
 ## Créer dans un espace contrôlé
 
 Autoriser JARVIS à travailler sur une copie d’un classeur fictif et lui demander une petite application qui en résume les données. Prévisualiser le résultat, demander une correction, puis choisir le fichier à exporter. Vérifier que le classeur original reste intact, qu’un fichier témoin hors périmètre est inaccessible et qu’abandonner l’essai laisse le dossier de destination intact.
+
+## Déployer une création dans Docker
+
+Demander une petite application, approuver son déploiement dans l’environnement de test, puis ouvrir l’application à l’adresse prévue. Vérifier le résultat après redémarrage du conteneur, puis arrêter et retirer ce déploiement en préservant les autres services et les données persistantes.
