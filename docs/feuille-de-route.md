@@ -20,7 +20,11 @@
 | 16. Création et utilisation d’agents spécialisés | Prévu | Créer un profil à partir d’une demande, examiner ses accès et le réutiliser sur une seconde tâche. Vérifier que ses outils respectent les permissions accordées. |
 | 17. Sélection du modèle selon la tâche | Prévu | Comparer justesse, délai et consommation de mémoire sur une même tâche, valider la délégation par le modèle principal, changer les affectations des spécialistes depuis les paramètres et pouvoir rétablir le profil précédent. |
 | 18. Second avis externe avec consentement | Prévu | Préparer localement une demande dépersonnalisée, vérifier le contenu et le destinataire, puis tester les chemins d’accord et de refus. |
-| 19. Installation reproductible et reprise | Prévu | Décrire le déploiement PC seul ou NAS + PC, vérifier l’inventaire et restaurer un projet témoin sur une cible vierge selon le [plan de reprise](deploiement-reprise.md). Vérifier la reprise après remplacement du PC ou du NAS et la récupération de changements non publiés. Mesurer le délai et les données récupérées. |
+| 19. Installation reproductible et reprise | Prévu | Valider d’abord le déploiement sur PC seul, vérifier l’inventaire et restaurer un projet témoin sur une cible vierge selon le [plan de reprise](deploiement-reprise.md). Vérifier la reprise après remplacement du PC ou du NAS et la récupération de changements non publiés. Mesurer le délai et les données récupérées. |
+
+## Migration ultérieure vers le Synology
+
+Développer et valider la première version intégralement sur Windows. Après cette validation, migrer le harnais et ses données selon le [plan de déploiement](deploiement-reprise.md), puis vérifier le fonctionnement avec Ollama et les outils restés sur le PC.
 
 ## Validation
 
@@ -28,6 +32,6 @@ Les [scénarios d’essai](scenarios-essai.md) conservent les usages retenus, do
 
 ## Intégrations envisagées
 
-Open WebUI, le NAS Synology, Tailscale et n8n pourront être intégrés selon les besoins. Pour chaque intégration, préciser les informations consultables et les actions autorisées avant son développement.
+Open WebUI, Tailscale et n8n pourront être intégrés selon les besoins. Pour chaque intégration, préciser les informations consultables et les actions autorisées avant son développement.
 
 [Retour à la présentation du projet](../README.md)
