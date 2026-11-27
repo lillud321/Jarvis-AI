@@ -39,3 +39,7 @@ Pour une application conteneurisée, JARVIS pourra préparer le Dockerfile et, a
 ## Intégration GitHub prévue
 
 Une GitHub App dédiée donnera accès aux dépôts sélectionnés. Le harnais commencera en lecture seule et conservera les identifiants hors du contexte du modèle et des applications générées. Les changements seront préparés dans une copie de travail isolée. Avant publication, présenter le dépôt, la branche et les différences. La fusion vers la branche principale restera une décision distincte de l’ouverture d’une demande de fusion.
+
+## Agents spécialisés
+
+Sur demande, JARVIS proposera une fiche d’agent précisant sa mission, ses sources, ses outils et le résultat attendu. L’utilisateur pourra valider la fiche, la modifier ou la retirer. Le harnais pourra utiliser le même modèle local pour plusieurs rôles et transmettre à chacun le seul contexte utile. À chaque exécution, les accès seront limités aux autorisations communes à la tâche, au profil et à l’utilisateur. Les confirmations requises pour écrire ou publier resteront gérées par le harnais.
