@@ -76,3 +76,6 @@ Commencer une conversation sur le PC, puis la reprendre par écrit depuis un té
 
 **Cas de référence.** Pour l’OCOM M303.02 sur le mentorat, le guide prévoit une leçon de 30 minutes. Le plan personnalisé fourni associe cinq segments à 14 diapositives et prévoit quatre équipes de trois à cinq cadets. La présentation propose un Jeopardy du mentorat et une discussion de groupe. Ce scénario sert à vérifier que le jeu soutient l’objectif pédagogique et que le plan indique à l’instructeur quand le lancer et comment exploiter les réponses.
 
+## Créer dans un espace contrôlé
+
+Autoriser JARVIS à travailler sur une copie d’un classeur fictif et lui demander une petite application qui en résume les données. Prévisualiser le résultat, demander une correction, puis choisir le fichier à exporter. Vérifier que le classeur original reste intact, qu’un fichier témoin hors périmètre est inaccessible et qu’abandonner l’essai laisse le dossier de destination intact.
