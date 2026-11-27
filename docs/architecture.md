@@ -35,3 +35,7 @@ Le harnais présentera le résultat demandé, les fichiers d’entrée et les op
 L’utilisateur pourra inspecter le résultat, demander une révision, l’écarter ou confirmer son export vers une destination précise. Le choix du mécanisme d’isolation sur Windows reste à valider.
 
 Pour une application conteneurisée, JARVIS pourra préparer le Dockerfile et, au besoin, la configuration Compose. Il proposera la cible, les ports et les volumes avant de construire l’image et de lancer le conteneur dans l’environnement de test autorisé. Un service de déploiement limitera les opérations au projet et à la cible approuvés. Le contenu généré ne recevra pas d’accès au moteur Docker de l’hôte. L’installation du moteur Docker, si elle est nécessaire, relève de la préparation de l’environnement (livrable 3).
+
+## Intégration GitHub prévue
+
+Une GitHub App dédiée donnera accès aux dépôts sélectionnés. Le harnais commencera en lecture seule et conservera les identifiants hors du contexte du modèle et des applications générées. Les changements seront préparés dans une copie de travail isolée. Avant publication, présenter le dépôt, la branche et les différences. La fusion vers la branche principale restera une décision distincte de l’ouverture d’une demande de fusion.
