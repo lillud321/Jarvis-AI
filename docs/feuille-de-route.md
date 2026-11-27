@@ -20,6 +20,7 @@
 | 16. Création et utilisation d’agents spécialisés | Prévu | Créer un profil à partir d’une demande, examiner ses accès et le réutiliser sur une seconde tâche. Vérifier que ses outils respectent les permissions accordées. |
 | 17. Sélection du modèle selon la tâche | Prévu | Comparer les modèles locaux sur les tâches visées, valider la délégation par le modèle principal, changer les affectations des spécialistes depuis les paramètres et pouvoir rétablir le profil précédent. |
 | 18. Second avis externe avec consentement | Prévu | Préparer localement une demande dépersonnalisée, vérifier le contenu et le destinataire, puis tester les chemins d’accord et de refus. |
+| 19. Installation reproductible et reprise | Prévu | Décrire le déploiement PC seul ou NAS + PC, vérifier l’inventaire et restaurer un projet témoin sur une cible vierge selon le [plan de reprise](deploiement-reprise.md). Mesurer le délai et les données récupérées. |
 
 ## Validation
 
